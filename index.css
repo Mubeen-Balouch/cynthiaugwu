@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+html , body {
+
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+
+    width: 100%;
+    background-color: black;
+
+}
+
+#Home {
+
+    height: 100vh;
+    width: 100%;
+  position: relative;
+    
+}
+
+
+#Home a {
+
+    text-decoration: none;
+}
+#nav {
+
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+#heading h1 {
+
+    font-size: 9vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+
+    margin-left: 30px;
+    opacity: .6;
+}
+
+#heading .secondh1 {
+
+    margin-left: 230px;
+}
+
+.blocktext {
+
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+
+
+}
+
+
+.blocktext h5{
+
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+#chotiheading  {
+    margin-top: 100px;
+    padding-right:  50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#chotiheading h5 {
+
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+}
+
+#herofooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0 2vw;
+}
+
+
+
+#iconset {
+
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle {
+   display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#second {
+width: 100%;
+height: 100vh;
+
+
+    padding-top: 200px;
+    padding-right: 10vw;
+}
+
+.elem {
+    border-top: 2px solid #888;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    position: relative;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.5vw;
+    opacity: .7;
+}
+
+.elemlast {
+
+    border-bottom: 1px solid #888;
+}
+
+
+
+
+
+
+.elem img {
+
+  display: none;
+    z-index: 999;
+    height: 140%;
+    position: absolute;
+}
+
+#about  {
+    color: white;
+    display: flex;
+ 
+    align-items: center;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    gap: 50px ;
+background-color: black;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+ .textarea{
+
+    width: 25rem;
+    
+    
+}
+
+img {
+    width: 200px;
+
+}
+
+.textarea h5 {
+
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: 10px;
+
+}
+
+.textarea p {
+
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.textarea a {
+
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 22px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+
+#subscribe {
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    padding-bottom: 10vw;
+}
+
+#subscribe h5 {
+
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+}
+
+#footer .left {
+
+    display: flex;
+    gap: 18px;
+}
+
+
+#footer .right {
+
+    display: flex;
+    gap: 20px;
+}
+
+#footer a
+ {
+    text-transform: uppercase;
+    font-size: 11px;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: 500;
+ }
+
+ #circle {
+
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+ }
+
+ .bounding {
+       width: fit-content;
+       overflow: hidden;
+
+ }
+
+ .bounding  .boundingelem {
+
+    transform: translateY(100%);
+
+
+ }
+
+
+ #Home .nav a {
+    z-index: 999;
+ }
+
+ #about a:hover {
+
+    background-color: aliceblue;
+    color: black;
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+ }
